@@ -248,15 +248,15 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "BasicBot",
             language: "english",
             chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
-            autowoot: true,
+            startupCap: 150, // 1-200
+            startupVolume: 64, // 0-100
+            startupEmoji: true, // true or false
+            autowoot: false,
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
